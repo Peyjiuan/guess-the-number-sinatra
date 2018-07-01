@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Eater|Pacifico|Source+Sans+Pro');
+body{
+  background-image:url('img/light-bg1.png');
+  text-align:center;
+}
+h1{font-size:5em;
+font-family: 'Eater',cursive;}
+
+.title{margin: 2em;
+line-height:1.5;
+}
+.number{
+  font-size: 2em;
+  width: 250px;
+  text-align: left;
+ margin-bottom:1em;
+}
+.start{
+  display: block;
+  background-color: purple;
+  color: white;
+width: 5em;
+height:5em;
+margin-left: auto;
+margin-right: auto;
+border-radius: 20%;
+  line-height: 5em;
+  text-decoration: none;
+box-shadow: 2px 2px 5px black;
+border: 0;
+}
+  
+  .start:hover{transition:background-color 1s;
+  background-color: indigo;}
